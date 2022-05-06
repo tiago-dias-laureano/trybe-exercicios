@@ -20,6 +20,7 @@ h1{
 }
 
 h2{
+    margin-bottom: 20px;
     background: linear-gradient(180deg, rgba(68,149,254,1) 0%, rgba(0,212,255,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -57,6 +58,10 @@ section{
 
 .about-me, .my-skills, .contact-me{
     text-align: center;
+}
+
+.div, li{
+    font-size: 1.2rem;
 }
 
 @media screen and (max-width: 820px){
