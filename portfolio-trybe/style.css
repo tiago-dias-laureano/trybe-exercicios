@@ -19,11 +19,15 @@ h1{
     font-size: 3rem;
 }
 
-h2{
-    margin-bottom: 20px;
+h2, span{
     background: linear-gradient(180deg, rgba(68,149,254,1) 0%, rgba(0,212,255,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+h2{
+    margin-bottom: 20px;
 }
 
 ul{
